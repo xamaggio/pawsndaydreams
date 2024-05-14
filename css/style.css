@@ -29,8 +29,8 @@ header {
 }
         
 #header a:hover {
-    background-color: rgb(66 28 40);
-    color: #f9f8fa;
+    background-color: #3882f6;
+    color: #f9fafa;
 }
     
 .nav-bar li {
@@ -76,7 +76,9 @@ color:#f9faf8;
 }
 .mychannel-text {font-size: 18px; color: #E5E7EB;}
 
-.mychannel-button a:hover {background-color:black; border: 1px solid black;}
+.mychannel-button a:hover {background-color: #f9faf8; 
+    border: 1px solid #3882f6;
+color:#3882f6;}
 
 .mychannel-feat {display:flex;
 justify-content: space-around;
@@ -112,8 +114,51 @@ height:60vh;}
 
 .quote {
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
     color: #1f2937;    
     width:75%;
 }
 .quotist {align-self:flex-end}
+
+.submepls {display: flex;
+justify-content: center;
+align-items:center;}
+
+.submepls a {align-self: flex-end;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right:2rem;
+    border: 1px solid white;
+    background-color: #3882f6;
+    text-decoration: none;
+    color:#f9faf8;}
+
+.subme {background-color: #3882f6;
+    color:#E5E7EB;
+margin:48px; 
+padding:24px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+gap:1rem;
+width:80vw;
+border: 1 solid #3882f6;
+border-radius: 25px;}
+
+.submepls a:hover {
+    background-color:#f9f8fa; 
+    border: 1px solid #f9f8fa;
+color:#3882f6}
+
+
+.subme h4 {font-size:32px;}
+
+footer {background-color: #1f2937;
+color: #f9faf8;display: flex;
+justify-content: center;
+align-items: center;
+font-size: 10px;
+height: 10vh;}
+
+footer a {text-decoration: none; color: #f9faf8;}
