@@ -48,8 +48,9 @@ header {
 To do: Include "latest YouTube Video" section */
 
 
-main > h1 {
+h1 {
     text-align: center;
+    font-size: 48px;
     font-weight: 900;
     padding: 24px;
     background-color: #1f2937;
@@ -64,6 +65,7 @@ main > h1 {
     background-color: #1f2937;
     color: #f9faf8;
     padding: 20px;
+    height:70vh;
 }
 
 .mychannel-button a {padding: 0.5rem;
@@ -72,5 +74,46 @@ background-color: #3882f6;
 text-decoration: none;
 color:#f9faf8;
 }
+.mychannel-text {font-size: 18px; color: #E5E7EB;}
 
 .mychannel-button a:hover {background-color:black; border: 1px solid black;}
+
+.mychannel-feat {display:flex;
+justify-content: space-around;
+align-items: center;
+padding:20px;
+height:60vh;}
+
+.feature {display:flex;
+    flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+flex-grow: 0;
+flex-wrap: wrap;
+gap:2rem;
+padding: 20px;
+border: 1px solid #3882f6;
+border-radius: 25px;
+font-size: 18px;}
+
+.feature h2 {font-size:26px; font-weight: 900;}
+
+.headlinetwo {background-color: white;
+color:#1f2937;
+font-weight: 900;
+font-size: 36px;}
+
+.quotebox {background-color: #E5E7EB;
+display: flex;
+justify-content: center;
+align-items: center;
+padding:30px;
+height:60vh;}
+
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;    
+    width:75%;
+}
+.quotist {align-self:flex-end}
